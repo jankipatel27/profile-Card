@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.profile-card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 370px;
+	width: 100%;
+	background:#8f9391;
+	border-radius: 24px;
+	padding: 25px;
+	box-shadow: 0px 10px 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+.image img{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background: #30e13a;
+	padding: 3px;
+	margin: 10px;
+}
+
+/* .image{
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	border:3px solid white;
+
+} */
+
+.profile-card .text-data{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #333;
+
+}
+
+.text-data .name{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.text-data .job{
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.profile-card .link{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	font-size: 18px;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	margin: 0 8px; 
+	text-decoration: none;
+}
+
+.profile-card .link1{
+	background: #4267b2;
+}
+
+.profile-card .link2{
+	background:#1da1f2 ;
+}
+
+.profile-card .link3{
+	background: #e1306c;
+}
+
+.profile-card .link4{
+	background: #ff0000;
+}
+.profile-card .media-icon{
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.profile-card .buttons{
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.buttons .btn{
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	border-radius: 24px;
+	margin: 0 10px;
+	padding: 8px 24px;
+	background-color: #4070f4;
+	cursor: pointer;transition: all 0.3s ease;
+}
+
+.buttons .btn:hover{
+	background-color: #0e4bf1;
+	transition: all 0.3s ease;
+}
+
+.profile-card .analytics{
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.analytics .data{
+	display: flex;
+	align-items: center;
+	color: #333;
+	padding: 0 20px;
+	border-right: 2px solid #e7e7e7;
+}
+
+.data i{
+	font-size: 18px;
+	margin-right: 6px;
+}
+
+.data:last-child{
+	border-right: none;
+}
